@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{555FDE7E-F099-465F-8E63-A9C97115E612}</ProjectGuid>
+    <ProjectGuid>{F8AB44EC-4ABB-4794-8E73-75D589C39666}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Uppgift_2</RootNamespace>
-    <AssemblyName>Uppgift 2</AssemblyName>
+    <AssemblyName>Uppgift_2</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

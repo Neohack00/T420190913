@@ -21,30 +21,19 @@ namespace Uppgift_1
 
             for (int i = 0; i < ordLength; i++)
             {
-
                 if (mening[i] == ' ')
                 {
-
                     wordCount++;
                     wordLen = i - checkpoint;
                     for (int y = checkpoint; y < i; y++)
                     {
                         char word = mening[y];
                         Write(word);
-
                     }
                     checkpoint = i + 1;
                     Write("   Antal karaktärer " + wordLen + "\n");
-
-
                 }
-
-
-
-
                 Write(" Antal ord :" + wordCount);
-
-
                 Read();
 
             }
