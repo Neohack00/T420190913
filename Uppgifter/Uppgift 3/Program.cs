@@ -9,7 +9,7 @@ namespace Uppgift_3
     class Program
     {
         static void Main(string[] args)
-        {
+        { 
          
 
             Console.WriteLine("skriv en mening");
@@ -31,7 +31,7 @@ namespace Uppgift_3
                     }
                     else if (matching == 0)
                     {
-                        Dictionary<string, string>.ValueCollection valueColl = OrdKollen  .Values;
+                        Dictionary<string, string>.ValueCollection valueColl = OrdKollen.Values;
                         Console.WriteLine();
                         foreach (string s in valueColl)
                         {
