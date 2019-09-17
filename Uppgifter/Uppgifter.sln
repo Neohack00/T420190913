@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uppgift 2", "Uppgift 2\Uppg
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uppgift 3", "Uppgift 3\Uppgift 3.csproj", "{EB016C3B-BFA6-4382-B464-08DEF96DF667}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox", "Sandbox\Sandbox.csproj", "{E699357B-25F3-4FBE-B42E-CFE13D501ACF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{EB016C3B-BFA6-4382-B464-08DEF96DF667}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB016C3B-BFA6-4382-B464-08DEF96DF667}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB016C3B-BFA6-4382-B464-08DEF96DF667}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E699357B-25F3-4FBE-B42E-CFE13D501ACF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E699357B-25F3-4FBE-B42E-CFE13D501ACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E699357B-25F3-4FBE-B42E-CFE13D501ACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E699357B-25F3-4FBE-B42E-CFE13D501ACF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
