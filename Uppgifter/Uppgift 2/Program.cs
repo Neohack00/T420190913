@@ -20,16 +20,37 @@ namespace Uppgift_2
             ////Console.WriteLine(words.Length);//Test körnings utskrift
             //Skriv ut varje ord på en egen rad, i storleksordning(längd på ordet)
             int MaxLen = 0;
+            int MinstLen = 0;
 
             foreach (string ord in words)
             {
+
                 if (MaxLen < ord.Length)
                 {
                     MaxLen = ord.Length;
+
+                    if (MinstLen == 0 )
+                    {
+                        MinstLen = MaxLen;
+                    }
+                }
+                else if(ord.Length < MinstLen)
+                {
+                    MinstLen = ord.Length;
                 }
             }
+            string[] Sortedwords = new string[words.Length];
 
-            Console.WriteLine("Störst ordvärde är {0}", MaxLen);
+            foreach(string ord in words)
+            {
+                if (MaxLen == ord.Length)
+                {
+                    Sortedwords[0] = ord;
+                }
+
+            }
+
+            Console.WriteLine("Störst ordvärde är {0} och minsta är {1}", MaxLen, MinstLen);
             foreach(string ord in words)
             {
                 Console.WriteLine("{0} : ({1})", ord , ord.Length);
