@@ -15,13 +15,12 @@ namespace Uppgift_2
             ////Låt användaren mata in en mening.
             Console.WriteLine("skriv en mening");
             string mening = Console.ReadLine();
-            string[] words = mening.Split(' ');// Vi har en method som kan räkna orden samt array som förvara dem
-
-            ////Console.WriteLine(words.Length);//Test körnings utskrift
+            string[] words = mening.Split(' ');
             //Skriv ut varje ord på en egen rad, i storleksordning(längd på ordet)
+           
             int MaxLen = 0;
             int MinstLen = 0;
-
+            
             foreach (string ord in words)
             {
 
@@ -64,10 +63,6 @@ namespace Uppgift_2
 
 
             //Skriv ut varje ord på en egen rad, i omvänd ordning(baklänges)
-
-
-
-            //Console.WriteLine(mening);
             Console.Read();
         }
     }
