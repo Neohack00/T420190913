@@ -47,6 +47,11 @@ namespace Uppgift_2
                 {
                     Sortedwords[0] = ord;
                 }
+                else if(MinstLen == ord.Length)
+                {
+                    Sortedwords[words.Length - 1] =  ord;
+                }
+            
 
             }
 
