@@ -13,27 +13,33 @@ namespace Uppgift_2
         {
              
             ////Låt användaren mata in en mening.
-            Console.WriteLine("skriv en mening");
+            Console.WriteLine("Write in an sentence");
             string mening = Console.ReadLine();
-            mening.Trim(' ', ',');
+            mening.Trim(' ');
             string[] inputwords = mening.Split(' ');
             //Skriv ut varje ord på en egen rad, i storleksordning(längd på ordet)
+            //Skriv ut varje ord på en egen rad, i omvänd ordning(baklänges)
             System.Collections.ArrayList words = new System.Collections.ArrayList();
-            foreach (string ord in inputwords)
+            Console.WriteLine("\n|Original order of the sentence |\n");
+            foreach (string word in inputwords)
             {
-                
-                words.Add(ord);
+                Console.WriteLine("{0} ({1})", word, word.Length);
+            }
+            Console.WriteLine("\n|Sorting after word size|\n");
+            Array.Sort(inputwords, (a, b) => a.Length.CompareTo(b.Length));// Sortera stringen i storleks ordning
+            foreach (string word in inputwords)
+            {
+                Console.WriteLine("{0} ({1})",word, word.Length);
+            }
+            Array.Reverse(inputwords, 0, inputwords.Length);// Omvänder ordningen
+            Console.WriteLine("\n|Reverse the order|\n");
+            {
+            foreach (string word in inputwords)
+            {
+               Console.WriteLine("{0} ({1})",word, word.Length);
             }
 
-            ;
-            foreach (string word in words)
-            {
-                Console.WriteLine(word);
-            }
-            {
-                
 
-                //Skriv ut varje ord på en egen rad, i omvänd ordning(baklänges)
                 Console.Read();
         }
  
