@@ -19,7 +19,6 @@ namespace Uppgift_2
             string[] inputwords = mening.Split(' ');
             //Skriv ut varje ord på en egen rad, i storleksordning(längd på ordet)
             //Skriv ut varje ord på en egen rad, i omvänd ordning(baklänges)
-            System.Collections.ArrayList words = new System.Collections.ArrayList();
             Console.WriteLine("\n|Original order of the sentence |\n");
             foreach (string word in inputwords)
             {
